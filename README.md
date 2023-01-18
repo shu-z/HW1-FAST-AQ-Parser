@@ -1,3 +1,5 @@
+![Pip install and Pytest](https://github.com/shu-z/HW1-FAST-AQ-Parser/actions/workflows/main.yml/badge.svg)
+
 # Project 1
 Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
 
@@ -31,7 +33,7 @@ The learning goals of this project are:
 	- [x] Transcription
 	- [x] Reverse Transcription
 
-- [ ] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
+- [x] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
 
 	See blogposts below on helping set up github actions with pytest:
 	
