@@ -69,6 +69,3 @@ def test_FastqParser():
 
 
 
-    #see if quality score is correct 
-
-
