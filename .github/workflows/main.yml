@@ -37,6 +37,7 @@ jobs:
       - name: Install seqparser
         run: |
           pipenv install .
+          
       - name: Run test suite
         run: |
           pipenv run test -v
