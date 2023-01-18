@@ -10,6 +10,9 @@ def main():
     """
     # Create instance of FastaParser
     # Create instance of FastqParser
+
+    fasta_inst=FastaParser()
+    fastq_inst=FastqParser()
         
     # For each record of FastaParser, Transcribe the sequence
     # and print it to console

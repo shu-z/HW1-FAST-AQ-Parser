@@ -26,7 +26,11 @@ def test_transcribe():
     Write your unit test for the
     transcribe function here.
     """
-    pass
+    transcribed=transcribe('ATCGTCGATCG')
+
+    assert transcribed == 'UAGCAGCUAGC', 'Transcribed sequence not as expected'
+
+ 
 
 
 def test_reverse_transcribe():
@@ -34,4 +38,10 @@ def test_reverse_transcribe():
     Write your unit test for the
     reverse transcribe function here.
     """
-    pass
+
+    reverse_transcribed=reverse_transcribe('ATCGTCGATCG')
+
+    assert reverse_transcribed == 'CGAUCGACGAU', 'Reverse transcribed sequence not as expected'
+
+
+
